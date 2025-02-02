@@ -6,6 +6,7 @@ This project focuses on predictive analysis to determine airline passenger satis
 ## 🚀 Features
 - Exploratory Data Analysis (EDA) with visualizations
 - Data preprocessing and feature engineering
+- **Missing value imputation using Random Forest-based models**
 - Neural network model development for classification
 - Model evaluation and performance metrics
 - Interactive plots using Plotly for better data insights
@@ -43,6 +44,7 @@ jupyter notebook
 Open `Airline_Passenger_Satisfaction.ipynb` and follow along with the analysis and model-building process.
 
 ## 🧠 Model Details
+- **Missing Value Imputation:** Implemented using RandomForestClassifier for categorical data and RandomForestRegressor for numerical data. This iterative imputation strategy helps maintain data integrity while filling in missing values based on related features.
 - Neural Network Architecture: Fully connected layers with activation functions
 - Loss Function: Categorical Cross-Entropy
 - Optimizer: Adam
